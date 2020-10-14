@@ -19,7 +19,7 @@ const mix = require('laravel-mix');
 
 mix.styles(
     [
-      'resources/coreui/css/coreui.css'
+      'resources/coreui/css/coreui.css',
     ],'public/css/app.css')
     .scripts(
         [
